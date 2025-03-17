@@ -29,5 +29,8 @@
   "dependencies": {
     "aws-sdk": "^2.1692.0",
     "cdk": "^2.1004.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
