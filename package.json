@@ -1,5 +1,5 @@
 {
-  "name": "cdk-utils",
+  "name": "@dslosky/cdk-utils",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/dslosky/cdk-utils#readme",
@@ -27,6 +27,7 @@
     "cdkx": "cdkx/src/cli.js"
   },
   "dependencies": {
-    "aws-sdk": "^2.1692.0"
+    "aws-sdk": "^2.1692.0",
+    "cdk": "^2.1004.0"
   }
 }
