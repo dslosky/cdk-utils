@@ -1,0 +1,32 @@
+{
+  "name": "cdk-utils",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dslosky/cdk-utils#readme",
+  "bugs": {
+    "url": "https://github.com/dslosky/cdk-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslosky/cdk-utils.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest .",
+    "build": "node build ."
+  },
+  "devDependencies": {
+    "commander": "^13.1.0",
+    "jest": "^29.7.0",
+    "shelljs": "^0.9.2"
+  },
+  "bin": {
+    "cdkx": "cdkx/src/cli.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  }
+}
